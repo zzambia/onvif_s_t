@@ -173,6 +173,40 @@ Mandatory calls:
 
 ## 6. Implementation Guide
 
+ONVIF-S and T deviceserver could be implemented in C#. C# and .NET toolkits are usually adopted as server-side preferred instruments to build complex IT systems on Windows. Linux can run Core services via Xamarin and similar infrastructures. C# .NET Core on Linux is a powerful combination that allows developers to build and run C# applications on Linux operating systems. Here are some key points about this technology stack:
+
+1. Cross-platform development: .NET Core (now part of .NET 5 and later) is designed to be cross-platform, allowing developers to build applications that run on Windows, macOS, and Linux.
+
+2. Open-source: Both C# and .NET Core are open-source technologies, which means they benefit from community contributions and are freely available.
+
+3. Performance: .NET Core offers excellent performance on Linux, often comparable to or better than other popular languages and frameworks.
+
+4. Compatibility: Most C# code written for .NET Framework can be easily ported to .NET Core with minimal changes.
+
+5. CLI tools: .NET Core comes with a powerful command-line interface (CLI) that works well on Linux systems, allowing developers to create, build, and run applications from the terminal.
+
+6. Linux distributions: .NET Core applications can run on various Linux distributions, including Ubuntu, Debian, CentOS, Fedora, and others.
+
+7. Development environments: You can develop C# .NET Core applications on Linux using IDEs like Visual Studio Code, JetBrains Rider, or even command-line editors.
+
+8. Deployment options: Applications can be deployed as self-contained executables or framework-dependent deployments, giving flexibility in distribution.
+
+9. Docker support: .NET Core applications can be easily containerized using Docker, which is widely used in Linux environments.
+
+10. Web development: ASP.NET Core, the web framework for .NET Core, works seamlessly on Linux, allowing developers to build and host web applications and APIs.
+
+11. Database support: .NET Core on Linux supports various databases, including SQL Server, PostgreSQL, MySQL, and SQLite.
+
+12. Microservices: The lightweight nature of .NET Core makes it suitable for building microservices architectures on Linux systems.
+
+13. Package management: NuGet, the package manager for .NET, works well on Linux, allowing easy integration of third-party libraries.
+
+14. Continuous Integration/Continuous Deployment (CI/CD): Many CI/CD tools and platforms support .NET Core on Linux, enabling streamlined development and deployment processes.
+
+15. Community and ecosystem: There's a growing community of developers using C# and .NET Core on Linux, contributing to a rich ecosystem of tools, libraries, and resources.
+
+Using C# .NET Core on Linux combines the power and familiarity of C# with the flexibility and robustness of Linux systems, making it an attractive option for many developers and organizations.
+
 ### 6.1 C# implementation overview
 
 Implementing ONVIF in C# involves creating a web service that handles SOAP requests and responses, along with implementing the required ONVIF services. Key components include:
